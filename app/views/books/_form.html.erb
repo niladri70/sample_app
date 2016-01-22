@@ -1,0 +1,6 @@
+<%= form_for @book do |f|%>
+	Name:<br> <%= f.text_field :name%><br>
+	Price:<br><%= f.number_field :price%><br>
+	Comments:<br><%= f.text_field :comments%><br>
+	<%= f.submit%>
+<%end%> 
